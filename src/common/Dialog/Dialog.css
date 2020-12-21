@@ -1,0 +1,40 @@
+#dialog {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999999;
+  background: rgba(192, 192, 192, 0.8);
+}
+
+#dialog-content {
+  width: 300px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-left: -150px;
+  background: #fff;
+  border: 1px solid #ccc;
+}
+
+#dialog-text {
+  margin: 1.5em 0;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#dialog-actions {
+  padding-bottom: 1.5em;
+  text-align: center;
+}
+
+#dialog-actions button {
+  margin-right: 1em;
+  border: 2px solid #000;
+  background: #fff;
+  font-size: 1em;
+  padding: 0.4em 1.4em;
+  font-weight: bold;
+  text-transform: uppercase;
+}
