@@ -1,5 +1,3 @@
-# cj-app
-
 Scrollable Tab
 
 PROJECT BUILD STEPS (Make sure that your project is getting built successfully):
